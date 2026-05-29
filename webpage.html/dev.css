@@ -1,0 +1,13 @@
+fieldset{
+    background-color:              rgb(65, 45, 177);
+}
+body{
+    background-color: rgba(49, 49, 235, 0.486);
+}
+h2{
+    font-family:cursive;
+    font-style:normal
+}
+.sunset{
+    display: flex;gap: 100px;
+}

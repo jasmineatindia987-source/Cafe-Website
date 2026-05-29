@@ -1,0 +1,51 @@
+
+.vv{
+    float:right;
+    padding: 10PX;
+}
+/* h2{
+    float:left;
+    color: orangered;
+    
+} */
+.saga{
+    float: left;
+    padding: 80PX;
+}
+/* h3{
+    float: right;
+    color: orangered;
+} */
+.syra{
+    float: right;
+    padding: 60PX;
+}
+/* h1{
+    float:left;
+    color: orangered;
+} */
+body{
+    background-color: black;
+}
+.a{
+    
+    color: orangered;
+    padding: 100px;
+    
+}
+.b{
+    padding: 10px;
+    color: orangered;
+    border-left: 500PX;
+    
+    
+
+}
+.c{
+    margin-top:50px;
+    color: orangered;
+    padding: 150PX;
+}
+h1{
+    color: rgb(240, 248, 255);
+}

@@ -1,0 +1,52 @@
+<html>
+    <!-- <div class="raj"> -->
+    <head> 
+       <link rel="stylesheet"href="login.css">
+    </head>
+    <body>
+        
+        <fieldset>
+            <form class="login" id="loginform"action="menu.html">
+            <h2>LOGIN</h2>
+            <label>username:</label>
+            <input type="text"id="username"placeholder="&#128100"name="username"><br><br>
+            <label>password:</label>
+            <input type="password"id="password"placeholder="&#128274"name="password"><br><br>
+            <input type="checkbox"id="remember me">
+            <label for="Remember me">remember me</label><br><br>
+            <input type="submit"value="login">
+            <p id="message"></p>
+            </form>
+        </fieldset>
+          <script>
+
+document.getElementById("loginform").onsubmit = function(event) {
+
+    event.preventDefault();
+
+    let username = document.getElementById("username").value;
+    let password = document.getElementById("password").value;
+    let message = document.getElementById("message");
+
+    if(username === "jasmine123@gmail.com" &&
+       password === "123456") {
+
+        message.style.color = "green";
+        message.innerHTML = "Login Successful!";
+
+        setTimeout(() => {
+            window.location.href = "menu.html";
+        }, 1000);
+
+    } else {
+
+        message.style.color = "red";
+        message.innerHTML = "Invalid username or password";
+    }
+};
+
+</script>
+
+
+    </body>
+</html>

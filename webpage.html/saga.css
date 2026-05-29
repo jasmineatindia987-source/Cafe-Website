@@ -1,0 +1,10 @@
+body{
+
+    background-image: url("bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur;
+}
+.sunset{
+    display: flex;
+}

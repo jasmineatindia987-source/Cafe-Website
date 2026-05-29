@@ -1,0 +1,22 @@
+fieldset{
+    height: 300;
+    width: 300;
+    backdrop-filter: blur(50);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 100;
+    margin-left: 500;
+}
+body{
+    background-image: url("bg3.jpg");
+    background-size:cover ;
+
+}
+div{
+    color:rgb(1, 18, 22);
+}
+input{
+    text-align: right;
+    
+}
